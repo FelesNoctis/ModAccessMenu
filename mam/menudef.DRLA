@@ -1,7 +1,7 @@
 AddOptionMenu "MAM_Window" after mam_core_closemenu
 {
 	SafeCommand "Use Armor Special :DRLA", mam_rl_armorspecial
-	SafeCommand "Drop Weapon :DRLA", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note, slight delay)"
+	SafeCommand "Drop Weapon :DRLA", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note: slight delay)"
 	SafeCommand "Remove Armor :DRLA", mam_rl_removearmor
 	SafeCommand "Remove Boots :DRLA", mam_rl_removeboots
 	SafeCommand "Drop Special Item :DRLA", mam_rl_specialitemdropper
@@ -20,7 +20,7 @@ OptionMenu "MAM_DRLA_Menu"
 	StaticText " "
 	SafeCommand "Armor Special", mam_rl_armorspecial
 	StaticText " "
-	SafeCommand "Drop Weapon", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note, slight delay)"
+	SafeCommand "Drop Weapon", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note: slight delay)"
 	SafeCommand "Remove Armor", mam_rl_removearmor
 	SafeCommand "Remove Boots", mam_rl_removeboots
 	SafeCommand "Drop Special Item", mam_rl_specialitemdropper

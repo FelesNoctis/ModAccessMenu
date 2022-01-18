@@ -1,0 +1,12 @@
+// Keybind
+addkeysection "Mod Access Menu" MAM_Keybinds
+addmenukey "Open Mod Access Menu" mam_core_openmenu
+
+// Mod Access Menu Aliases
+alias mam_core_closemenu "closemenu"
+alias mam_core_openmenu "openmenu MAM_Window"
+
+// System Aliases
+alias mam_menu_save "closemenu; menu_save"
+alias mam_menu_load "closemenu; menu_load"
+alias mam_menu_main "closemenu; menu_main"

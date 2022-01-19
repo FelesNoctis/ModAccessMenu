@@ -1,7 +1,8 @@
 // DoomRLA
+alias mam_drla_pda "closemenu; drla_pda"
 alias mam_rl_armorspecial "closemenu; rl_armorspecial"
+alias mam_rl_regularitemdropper "closemenu; invuse; wait 1; +zoom; wait 1; -zoom;"
 alias mam_rl_removearmor "closemenu; rl_removearmor; wait 1; rl_removearmor"
 alias mam_rl_removeboots "closemenu; rl_removeboots; wait 1; rl_removeboots"
 alias mam_rl_removeweapon "closemenu; +zoom; wait 1; -zoom; wait 20; +zoom; wait 1; -zoom;"
 alias mam_rl_specialitemdropper "closemenu; wait 1; rl_specialitemdropper"
-alias mam_drla_pda "closemenu; drla_pda"

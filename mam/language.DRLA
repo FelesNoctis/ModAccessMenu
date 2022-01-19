@@ -1,0 +1,18 @@
+[default]
+
+// MAM_Window
+MAM_DRL_QWK_COM_DRRI = "Drop Inventory Item :DRLA";
+MAM_DRL_QWK_COM_DRWP = "Drop Weapon :DRLA";
+MAM_DRL_QWK_COM_RMAR = "Remove Armor :DRLA";
+MAM_SUB_DRLA = "DoomRL Arsenal";
+
+// MAM_DRLA_Menu
+MAM_DRL_COM_ARSP = "Armor Special";
+MAM_DRL_COM_DRRI = "Drop Inventory Item";
+MAM_DRL_COM_DRSI = "Drop Special Item";
+MAM_DRL_COM_DRWP = "Drop Weapon";
+MAM_DRL_COM_RMAR = "Remove Armor";
+MAM_DRL_COM_RMBT = "Remove Boots";
+MAM_DRL_COM_USEP = "Open/Close PDA";
+MAM_DRL_DSC_DRWP = "Do you really want to drop your weapon? (Note: slight delay)";
+MAM_DRL_TITL = "DoomRL Arsenal Menu";

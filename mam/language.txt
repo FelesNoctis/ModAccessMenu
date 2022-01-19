@@ -1,0 +1,14 @@
+[default]
+
+// MAM_Window
+MAM_COM_CLOS = "Close Menu : MAM";
+MAM_SUB_SYSM = "System Commands";
+MAM_WIN_INSM = "Installed Menus";
+MAM_WIN_QWKM = "Quickmenu";
+MAM_WIN_TITL = "Mod Access Menu";
+
+// MAM_SystemMenu
+MAM_SYS_COM_LOAD = "Load Menu";
+MAM_SYS_COM_MAIN = "Main Menu";
+MAM_SYS_COM_SAVE = "Save Menu";
+MAM_SYS_TITL = "System Menu";

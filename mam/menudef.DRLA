@@ -1,26 +1,26 @@
 AddOptionMenu "MAM_Window" after mam_core_closemenu
 {
-	SafeCommand "Drop Weapon :DRLA", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note: slight delay)"
-	SafeCommand "Remove Armor :DRLA", mam_rl_removearmor
-	SafeCommand "Drop Inventory Item :DRLA", mam_rl_regularitemdropper
+	SafeCommand "$MAM_DRL_QWK_COM_DRWP", mam_rl_removeweapon, "$MAM_DRL_DSC_DRWP"
+	SafeCommand "$MAM_DRL_QWK_COM_RMAR", mam_rl_removearmor
+	SafeCommand "$MAM_DRL_QWK_COM_DRRI", mam_rl_regularitemdropper
 }
 
 AddOptionMenu "MAM_Window"
 {
-	SubMenu "DoomRL Arsenal", "MAM_DRLA_Menu"
+	SubMenu "$MAM_SUB_DRLA", "MAM_DRLA_Menu"
 }
 
 OptionMenu "MAM_DRLA_Menu"
 {
-	Title "DoomRL Arsenal Menu"
+	Title "$MAM_DRL_TITL"
 	StaticText " "
-	Command "Open/Close PDA", mam_drla_pda
+	Command "$MAM_DRL_COM_USEP", mam_drla_pda
 	StaticText " "
-	SafeCommand "Armor Special", mam_rl_armorspecial
+	SafeCommand "$MAM_DRL_COM_ARSP", mam_rl_armorspecial
 	StaticText " "
-	SafeCommand "Drop Weapon", mam_rl_removeweapon, "Do you really want to drop your weapon? (Note: slight delay)"
-	SafeCommand "Remove Armor", mam_rl_removearmor
-	SafeCommand "Remove Boots", mam_rl_removeboots
-	SafeCommand "Drop Inventory Item", mam_rl_regularitemdropper
-	SafeCommand "Drop Special Item", mam_rl_specialitemdropper
+	SafeCommand "$MAM_DRL_COM_DRWP", mam_rl_removeweapon, "$MAM_DRL_DSC_DRWP"
+	SafeCommand "$MAM_DRL_COM_RMAR", mam_rl_removearmor
+	SafeCommand "$MAM_DRL_COM_RMBT", mam_rl_removeboots
+	SafeCommand "$MAM_DRL_COM_DRRI", mam_rl_regularitemdropper
+	SafeCommand "$MAM_DRL_COM_DRSI", mam_rl_specialitemdropper
 }

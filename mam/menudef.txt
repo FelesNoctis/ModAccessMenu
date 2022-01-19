@@ -1,19 +1,19 @@
 OptionMenu "MAM_Window"
 {
-	Title "Mod Access Menu"
+	Title "$MAM_WIN_TITL"
 	StaticText " "
-	StaticText "Quickmenu"
-	Command "Close Menu : MAM", mam_core_closemenu
+	StaticText "$MAM_WIN_QWKM"
+	Command "$MAM_COM_CLOS", mam_core_closemenu
 	StaticText " "
-	StaticText "Installed Menus"
-	SubMenu "System Commands", "MAM_SystemMenu"
+	StaticText "$MAM_WIN_INSM"
+	SubMenu "$MAM_SUB_SYSM", "MAM_SystemMenu"
 	StaticText " "
 }
 
 OptionMenu "MAM_SystemMenu"
 {
-	Title "System Menu"
-	Command "Save Menu", mam_menu_save
-	Command "Load Menu", mam_menu_load
-	Command "Main Menu", mam_menu_main
+	Title "$MAM_SYS_TITL"
+	Command "$MAM_SYS_COM_SAVE", mam_menu_save
+	Command "$MAM_SYS_COM_LOAD", mam_menu_load
+	Command "$MAM_SYS_COM_MAIN", mam_menu_main
 }

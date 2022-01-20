@@ -23,4 +23,6 @@ OptionMenu "MAM_DRLA_Menu"
 	SafeCommand "$MAM_DRL_COM_RMBT", mam_rl_removeboots
 	SafeCommand "$MAM_DRL_COM_DRRI", mam_rl_regularitemdropper
 	SafeCommand "$MAM_DRL_COM_DRSI", mam_rl_specialitemdropper
+	StaticText " "
+	SubMenu "$MAM_DRL_SUB_OPTN", "DoomRLA"
 }

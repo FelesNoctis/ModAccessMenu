@@ -15,4 +15,5 @@ MAM_DRL_COM_RMAR = "Remove Armor";
 MAM_DRL_COM_RMBT = "Remove Boots";
 MAM_DRL_COM_USEP = "Open/Close PDA";
 MAM_DRL_DSC_DRWP = "Do you really want to drop your weapon? (Note: slight delay)";
+MAM_DRL_SUB_OPTN = "DRLA Options";
 MAM_DRL_TITL = "DoomRL Arsenal Menu";

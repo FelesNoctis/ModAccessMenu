@@ -1,12 +1,18 @@
 OptionMenu "MAM_Window"
 {
 	Title "$MAM_WIN_TITL"
-	StaticText " "
-	StaticText "$MAM_WIN_QWKM"
+	SubMenu "$MAM_SUB_SYSM", "MAM_SystemMenu"
 	Command "$MAM_COM_CLOS", mam_core_closemenu
 	StaticText " "
-	StaticText "$MAM_WIN_INSM"
+	SubMenu "$MAM_WIN_INSM", "MAM_InstalledList"
+	StaticText " "
+}
+
+OptionMenu "MAM_InstalledList"
+{
+	Title "$MAM_INS_TITL"
 	SubMenu "$MAM_SUB_SYSM", "MAM_SystemMenu"
+	Command "$MAM_COM_CLOS", mam_core_closemenu
 	StaticText " "
 }
 

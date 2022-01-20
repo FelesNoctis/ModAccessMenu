@@ -1,0 +1,7 @@
+// RPG-Lite
+alias mam_rpg_manualload "closemenu; pukename MRPGManualLoad"
+alias mam_rpg_manualsave "closemenu; pukename MRPGsavescript"
+alias mam_rpg_openmenu "closemenu; Pukename MRPGOpenMenu"
+alias mam_rpg_selectnext "closemenu; RPG_SelectNext; wait 5; mam_core_openmenu"
+alias mam_rpg_selectprevious "closemenu; RPG_SelectPrevious; wait 5; mam_core_openmenu"
+alias mam_rpg_usespell "closemenu; RPG_UseSpell"

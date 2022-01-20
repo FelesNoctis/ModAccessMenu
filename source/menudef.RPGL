@@ -1,0 +1,27 @@
+AddOptionMenu "MAM_Window" after mam_core_closemenu
+{
+	Command "$MAM_RPG_QWK_COM_SPUS", mam_rpg_usespell
+	Command "$MAM_RPG_QWK_COM_SPNX", mam_rpg_selectnext
+	Command "$MAM_RPG_QWK_COM_SPPV", mam_rpg_selectprevious
+}
+
+AddOptionMenu "MAM_Window"
+{
+	SubMenu "$MAM_SUB_RPGL", "MAM_RPGL_Menu"
+}
+
+OptionMenu "MAM_RPGL_Menu"
+{
+	Title "$MAM_RPG_TITL"
+	StaticText " "
+	Command "$MAM_RPG_COM_USEM", mam_rpg_openmenu
+	StaticText " "
+	Command "$MAM_RPG_COM_SPUS", mam_rpg_usespell
+	Command "$MAM_RPG_COM_SPNX", mam_rpg_selectnext
+	Command "$MAM_RPG_COM_SPPV", mam_rpg_selectprevious
+	StaticText " "
+	SafeCommand "$MAM_RPG_COM_MNSV", mam_rpg_manualsave
+	SafeCommand "$MAM_RPG_COM_MNLD", mam_rpg_manualload
+	StaticText " "
+	Submenu "$MAM_RPG_SUB_OPTN", "MRPGOpt"
+}

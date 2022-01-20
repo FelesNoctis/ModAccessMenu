@@ -1,0 +1,17 @@
+[default]
+
+// MAM_Window
+MAM_RPG_QWK_COM_SPNX = "Select Next Spell :RPGL";
+MAM_RPG_QWK_COM_SPPV = "Select Previous Spell :RPGL";
+MAM_RPG_QWK_COM_SPUS = "Use Spell :RPGL";
+MAM_SUB_RPGL = "RPG Lite";
+
+// MAM_RPGL_Menu
+MAM_RPG_COM_SPNX = "Select Next Spell";
+MAM_RPG_COM_SPPV = "Select Previous Spell";
+MAM_RPG_COM_SPUS = "Use Spell";
+MAM_RPG_COM_MNLD = "Manual Load";
+MAM_RPG_COM_MNSV = "Manual Save";
+MAM_RPG_COM_USEM = "Open/Close Stats and Skills";
+MAM_RPG_SUB_OPTN = "RPG Lite Options";
+MAM_RPG_TITL = "RPG Lite Menu";

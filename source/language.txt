@@ -3,12 +3,11 @@
 // MAM_Window
 MAM_COM_CLOS = "Close MAM";
 MAM_SUB_SYSM = "Save/Load/Main Menu";
-MAM_WIN_INSM = "Installed Mod Menus";
-MAM_WIN_QWKM = "Quickmenu";
+MAM_WIN_INSM = "Extended Mod Menus";
 MAM_WIN_TITL = "Mod Access Menu";
 
 // MAM_InstalledList
-MAM_INS_TITL = "Installed Mod Menus";
+MAM_INS_MLST = "Mod List";
 
 // MAM_SystemMenu
 MAM_SYS_COM_LOAD = "Load Menu";

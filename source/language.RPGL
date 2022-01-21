@@ -1,9 +1,6 @@
 [default]
 
 // MAM_Window
-MAM_RPG_QWK_COM_SPNX = "Select Next Spell :RPGL";
-MAM_RPG_QWK_COM_SPPV = "Select Previous Spell :RPGL";
-MAM_RPG_QWK_COM_SPUS = "Use Spell :RPGL";
 MAM_SUB_RPGL = "RPG Lite";
 
 // MAM_RPGL_Menu

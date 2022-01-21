@@ -1,11 +1,12 @@
-AddOptionMenu "MAM_Window" after mam_core_closemenu
+AddOptionMenu "MAM_Window"
 {
-	SafeCommand "$MAM_DRL_QWK_COM_DRWP", mam_rl_removeweapon, "$MAM_DRL_DSC_DRWP"
-	SafeCommand "$MAM_DRL_QWK_COM_RMAR", mam_rl_removearmor
-	SafeCommand "$MAM_DRL_QWK_COM_DRRI", mam_rl_regularitemdropper
+	StaticText "$MAM_SUB_DRLA"
+	SafeCommand "$MAM_DRL_COM_DRWP", mam_rl_removeweapon, "$MAM_DRL_DSC_DRWP"
+	SafeCommand "$MAM_DRL_COM_RMAR", mam_rl_removearmor
+	SafeCommand "$MAM_DRL_COM_DRRI", mam_rl_regularitemdropper
 }
 
-AddOptionMenu "MAM_Window"
+AddOptionMenu "MAM_InstalledList"
 {
 	SubMenu "$MAM_SUB_DRLA", "MAM_DRLA_Menu"
 }
@@ -13,7 +14,6 @@ AddOptionMenu "MAM_Window"
 OptionMenu "MAM_DRLA_Menu"
 {
 	Title "$MAM_DRL_TITL"
-	StaticText " "
 	Command "$MAM_DRL_COM_USEP", mam_drla_pda
 	StaticText " "
 	SafeCommand "$MAM_DRL_COM_ARSP", mam_rl_armorspecial

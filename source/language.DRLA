@@ -1,9 +1,6 @@
 [default]
 
 // MAM_Window
-MAM_DRL_QWK_COM_DRRI = "Drop Inventory Item :DRLA";
-MAM_DRL_QWK_COM_DRWP = "Drop Weapon :DRLA";
-MAM_DRL_QWK_COM_RMAR = "Remove Armor :DRLA";
 MAM_SUB_DRLA = "DoomRL Arsenal";
 
 // MAM_DRLA_Menu

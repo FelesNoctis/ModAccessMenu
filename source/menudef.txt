@@ -10,10 +10,11 @@ OptionMenu "MAM_Window"
 
 OptionMenu "MAM_InstalledList"
 {
-	Title "$MAM_INS_TITL"
+	Title "$MAM_WIN_INSM"
 	SubMenu "$MAM_SUB_SYSM", "MAM_SystemMenu"
 	Command "$MAM_COM_CLOS", mam_core_closemenu
 	StaticText " "
+	StaticText "$MAM_INS_MLST"
 }
 
 OptionMenu "MAM_SystemMenu"

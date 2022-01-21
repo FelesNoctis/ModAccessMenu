@@ -1,0 +1,62 @@
+[default]
+
+// MAM_Window
+MAM_SUB_HDST = "Hideous Destructor";
+
+// MAM_HDST_Menu
+MAM_HDS_COM_BOOM = "Detonate IEDs";
+MAM_HDS_COM_DRWP = "Drop Weapon";
+MAM_HDS_COM_MGMN = "Mag Manager";
+MAM_HDS_COM_RMAR = "Strip Armor";
+MAM_HDS_COM_SRLD = "Secondary Reload";
+MAM_HDS_COM_STIM = "Use Stimpack";
+MAM_HDS_COM_TMCL = "Clear team spawn";
+MAM_HDS_COM_TMQR = "Query all team positions";
+MAM_HDS_COM_TMST = "Set team spawn here";
+MAM_HDS_COM_WFMD = "Switch Weapon Fire Mode";
+MAM_HDS_COM_WUNL = "Weapon Unload";
+
+MAM_HDS_DSC_MGMN = "Do you really want to manage your magazines now?";
+MAM_HDS_DSC_WUNL = "Do you really want to unload your weapon now?";
+
+MAM_HDS_SUB_EQMD = "Equipment and Medical";
+MAM_HDS_SUB_EXPL = "IEDs and Door Busters";
+MAM_HDS_SUB_OPTN = "Hideous Destructor Mod Options";
+MAM_HDS_SUB_ROBT = "HERPs and DERPs";
+MAM_HDS_SUB_WPAM = "Weapons and Ammo";
+
+MAM_HDS_TITL = "Hideous Destructor Menu";
+
+// MAM_HDST_SUB_Equipment
+MAM_HDS_SUB_EQP_TITL = "HD: Equipment and Medical";
+
+// MAM_HDST_SUB_Explosives
+MAM_HDS_SUB_EXP_TITL = "HD: IEDs and Door Busters";
+
+// MAM_HDST_SUB_Robots
+MAM_HDS_SUB_RBT_CAT_DERP = "D.E.R.P.s";
+MAM_HDS_SUB_RBT_CAT_HERP = "H.E.R.P.s";
+MAM_HDS_SUB_RBT_COM_DRP_AMBS = "Set DERP Ambush";
+MAM_HDS_SUB_RBT_COM_DRP_COME = "DERP goto self";
+MAM_HDS_SUB_RBT_COM_DRP_GOTO = "DERP goto target";
+MAM_HDS_SUB_RBT_COM_DRP_PTRL = "Set DERP Patrol";
+MAM_HDS_SUB_RBT_COM_DRP_SWAP = "Toggle DERP Ambush/Turret";
+MAM_HDS_SUB_RBT_COM_DRP_TRRT = "Set DERP Turret";
+MAM_HDS_SUB_RBT_COM_UDRP = "Use D.E.R.P.";
+MAM_HDS_SUB_RBT_COM_UHRP = "Use H.E.R.P.";
+MAM_HDS_SUB_RBT_SUB_DRPM = "DERP Direct Movement";
+MAM_HDS_SUB_RBT_TITL = "HD: HERPs and DERPs";
+
+// MAM_HDST_SUB_Robots_DERPDirectMove
+MAM_HDS_SUB_RBT_SUB_DRP_TITL = "HD: DERP Direct Movement";
+MAM_HDS_SUB_RBT_SUB_DRP_EAST = "DERP move E";
+MAM_HDS_SUB_RBT_SUB_DRP_NRES = "DERP move NE";
+MAM_HDS_SUB_RBT_SUB_DRP_NRTH = "DERP move N";
+MAM_HDS_SUB_RBT_SUB_DRP_NRWS = "DERP move NW";
+MAM_HDS_SUB_RBT_SUB_DRP_STES = "DERP move SE";
+MAM_HDS_SUB_RBT_SUB_DRP_STWS = "DERP move SW";
+MAM_HDS_SUB_RBT_SUB_DRP_SUTH = "DERP move S";
+MAM_HDS_SUB_RBT_SUB_DRP_WEST = "DERP move W";
+
+// MAM_HDST_SUB_WeaponAmmo
+MAM_HDS_SUB_WPA_TITL = "HD: Weapons and Ammo";

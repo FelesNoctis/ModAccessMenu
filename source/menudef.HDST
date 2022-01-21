@@ -1,0 +1,95 @@
+AddOptionMenu "MAM_Window"
+{
+	StaticText "$MAM_SUB_HDST"
+	Command "$MAM_HDS_COM_WFMD", mam_hd_weaponfiremode
+	Command "$MAM_HDS_COM_SRLD", mam_hd_secondaryreload
+	StaticText " "
+	SafeCommand "$MAM_HDS_COM_WUNL", mam_hd_unloadweapon, "$MAM_HDS_DSC_WUNL"
+	SafeCommand "$MAM_HDS_COM_DRWP", mam_hd_dropweapon
+	SafeCommand "$MAM_HDS_COM_RMAR", mam_hd_striparmor
+	SafeCommand "$MAM_HDS_COM_MGMN", mam_hd_magmanager, "$MAM_HDS_DSC_MGMN"
+	StaticText " "
+	SubMenu "$MAM_HDS_SUB_EXPL", "MAM_HDST_SUB_Explosives"
+	StaticText " "
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_SWAP", mam_hd_controlderpswap
+	SubMenu "$MAM_HDS_SUB_ROBT", "MAM_HDST_SUB_Robots"
+	StaticText " "
+	SafeCommand "$MAM_HDS_COM_TMST", mam_hd_teamspawnset
+	SafeCommand "$MAM_HDS_COM_TMCL", mam_hd_teamspawnclear
+	Command "$MAM_HDS_COM_TMQR", mam_hd_teamquery
+	StaticText " "
+}
+
+AddOptionMenu "MAM_InstalledList"
+{
+	SubMenu "$MAM_SUB_HDST", "MAM_HDST_Menu"
+}
+
+OptionMenu "MAM_HDST_Menu"
+{
+	Title "$MAM_HDS_TITL"
+	SubMenu "$MAM_HDS_SUB_EQMD", "MAM_HDST_SUB_EquipmentMedical"
+	SubMenu "$MAM_HDS_SUB_EXPL", "MAM_HDST_SUB_Explosives"
+	SubMenu "$MAM_HDS_SUB_ROBT", "MAM_HDST_SUB_Robots"
+	SubMenu "$MAM_HDS_SUB_WPAM", "MAM_HDST_SUB_WeaponAmmo"
+	StaticText " "
+	SubMenu "$MAM_HDS_SUB_OPTN", "HDOptionsMenu"
+}
+
+OptionMenu "MAM_HDST_SUB_EquipmentMedical"
+{
+	Title "$MAM_HDS_SUB_EQP_TITL"
+	Command "$MAM_HDS_COM_STIM", mam_hd_usestimpack
+	StaticText " "
+	SafeCommand "$MAM_HDS_COM_RMAR", mam_hd_striparmor
+}
+
+OptionMenu "MAM_HDST_SUB_Explosives"
+{
+	Title "$MAM_HDS_SUB_EXP_TITL"
+	SafeCommand "$MAM_HDS_COM_BOOM", mam_hd_detonateieds
+}
+
+OptionMenu "MAM_HDST_SUB_Robots"
+{
+	Title "$MAM_HDS_SUB_RBT_TITL"
+	StaticText "$MAM_HDS_SUB_RBT_CAT_HERP"
+	Command "$MAM_HDS_SUB_RBT_COM_UHRP", mam_hd_deployherp
+	StaticText " "
+	StaticText "$MAM_HDS_SUB_RBT_CAT_DERP"
+	Command "$MAM_HDS_SUB_RBT_COM_UDRP", mam_hd_deployderp
+	StaticText " "
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_PTRL", mam_hd_controlderppatrol
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_AMBS", mam_hd_controlderpambush
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_TRRT", mam_hd_controlderpturret
+	StaticText " "
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_GOTO", mam_hd_controlderpgoto
+	Command "$MAM_HDS_SUB_RBT_COM_DRP_COME", mam_hd_controlderpcome
+	StaticText " "
+	SubMenu "$MAM_HDS_SUB_RBT_SUB_DRPM", "MAM_HDST_SUB_Robots_DERPDirectMove"
+}
+
+OptionMenu "MAM_HDST_SUB_Robots_DERPDirectMove"
+{
+	Title "$MAM_HDS_SUB_RBT_SUB_DRP_TITL"
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_NRTH", mam_hd_controlderpmoveN
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_SUTH", mam_hd_controlderpmoveS
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_EAST", mam_hd_controlderpmoveE
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_WEST", mam_hd_controlderpmoveW
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_NRES", mam_hd_controlderpmoveNE
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_STWS", mam_hd_controlderpmoveSW
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_STES", mam_hd_controlderpmoveSE
+	Command "$MAM_HDS_SUB_RBT_SUB_DRP_NRWS", mam_hd_controlderpmoveNW
+}
+
+OptionMenu "MAM_HDST_SUB_WeaponAmmo"
+{
+	Title "$MAM_HDS_SUB_WPA_TITL"
+	Command "$MAM_HDS_COM_WFMD", mam_hd_weaponfiremode
+	Command "$MAM_HDS_COM_SRLD", mam_hd_secondaryreload
+	StaticText " "
+	SafeCommand "$MAM_HDS_COM_MGMN", mam_hd_magmanager, "$MAM_HDS_DSC_MGMN"
+	SafeCommand "$MAM_HDS_COM_WUNL", mam_hd_unloadweapon, "$MAM_HDS_DSC_WUNL"
+	StaticText " "
+	SafeCommand "$MAM_HDS_COM_DRWP", mam_hd_dropweapon
+}

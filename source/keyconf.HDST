@@ -1,17 +1,21 @@
-// Hideous Destructor
-alias mam_hd_detonateieds "closemenu; detonate"
-alias mam_hd_dropweapon "closemenu; weapdrop"
-alias mam_hd_magmanager "closemenu; +user3; wait 1; -user3"
-alias mam_hd_secondaryreload "closemenu; +user1; wait 1; -user1"
+// Equipment and Medical
 alias mam_hd_striparmor "closemenu; hd_strip"
-alias mam_hd_teamquery "closemenu; checkin"
-alias mam_hd_teamspawnclear "closemenu; teamspawn -1"
-alias mam_hd_teamspawnset "closemenu; teamspawn 666"
-alias mam_hd_unloadweapon "closemenu; +user4; wait 1; -user4"
+alias mam_hd_usebandages "closemenu; hd_band"
+alias mam_hd_usemedikit "closemenu; hd_meds"
+alias mam_hd_usepotion "closemenu; hd_potion"
 alias mam_hd_usestimpack "closemenu; hd_stims"
-alias mam_hd_weaponfiremode "closemenu; +user2; wait 1; -user2"
+
+// Explosives
+alias mam_hd_deployied "closemenu; use hdiedkit"
+alias mam_hd_detonateieds "closemenu; detonate"
+alias mam_hd_iedsactive "closemenu; iedactive "
+alias mam_hd_iedsquery "closemenu; netevent ied 123 %1"
+alias mam_hd_iedspassive "closemenu; iedpassive"
 
 // Robots
+alias mam_hd_assumingdirectcontrol "closemenu; +user2"
+alias mam_hd_thisshellisonlyavehicle "closemenu; -user2"
+// Robots - DERP
 alias mam_hd_controlderpambush "closemenu; derpa"
 alias mam_hd_controlderpcome "closemenu; derpcome"
 alias mam_hd_controlderpgoto "closemenu; derpgo"
@@ -27,7 +31,26 @@ alias mam_hd_controlderppatrol "closemenu; derpp"
 alias mam_hd_controlderpswap "closemenu; derpat"
 alias mam_hd_controlderpturret "closemenu; derpt"
 alias mam_hd_deployderp "closemenu; use derpusable"
+alias mam_hd_controlderpswitchattach "closemenu; use derpusable; wait 15; netevent derp 555 %1"
+alias mam_hd_controlderpswitchuse "closemenu; netevent derp 556 %1"
+alias mam_hd_derpquery "closemenu; netevent derp 123 %1"
+// Robots - HERP
 alias mam_hd_deployherp "closemenu; use herpusable"
+alias mam_hd_herpquery "closemenu; netevent herp 123 %1"
+
+// Team
+alias mam_hd_teamquery "closemenu; checkin"
+alias mam_hd_teamspawnclear "closemenu; teamspawn -1"
+alias mam_hd_teamspawnset "closemenu; teamspawn 666"
+
+// Weapons and Ammo
+alias mam_hd_ammodropone "closemenu; hd_dropone"
+alias mam_hd_ammodropuseless "closemenu; hd_purge"
+alias mam_hd_dropweapon "closemenu; weapdrop"
+alias mam_hd_magmanager "closemenu; +user3; wait 1; -user3"
+alias mam_hd_secondaryreload "closemenu; +user1; wait 1; -user1"
+alias mam_hd_unloadweapon "closemenu; +user4; wait 1; -user4"
+alias mam_hd_weaponfiremode "closemenu; +user2; wait 1; -user2"
 
 // Menu Calls
 alias mam_hd_openderpmovemenu "openmenu MAM_HDST_SUB_Robots_DERPDirectMove"

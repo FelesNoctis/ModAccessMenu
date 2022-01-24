@@ -1,0 +1,7 @@
+AddOptionMenu "MAM_Window"
+{
+	StaticText " "
+	StaticText "$MAM_HDS_ADD_FLW_SUB_TEM_CAT_NAME"
+	Command "$MAM_HDS_ADD_FLW_SUB_TEM_COM_MENU", mam_hd_addon_follower_openmenu
+	SubMenu "$MAM_HDS_ADD_FLW_SUB_OPTN", "HDFollowerMenu"
+}

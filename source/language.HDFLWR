@@ -1,0 +1,6 @@
+[default]
+
+// MAM_HDST_SUB_Team
+MAM_HDS_ADD_FLW_SUB_TEM_CAT_NAME = "HD - Follower";
+MAM_HDS_ADD_FLW_SUB_TEM_COM_MENU = "Open Command Menu";
+MAM_HDS_ADD_FLW_SUB_OPTN = "HD Follower Options";

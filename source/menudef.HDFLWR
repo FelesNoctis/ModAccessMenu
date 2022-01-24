@@ -1,4 +1,4 @@
-AddOptionMenu "MAM_Window"
+AddOptionMenu "MAM_HDST_SUB_Team"
 {
 	StaticText " "
 	StaticText "$MAM_HDS_ADD_FLW_SUB_TEM_CAT_NAME"

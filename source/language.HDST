@@ -23,10 +23,17 @@ MAM_HDS_TITL = "Hideous Destructor Menu";
 MAM_HDS_SUB_EQP_CAT_EQUP = "Equipment";
 MAM_HDS_SUB_EQP_CAT_MEDI = "Medical";
 MAM_HDS_SUB_EQP_COM_BAND = "Use Bandages";
+MAM_HDS_SUB_EQP_COM_GREN = "Use Grenades";
+MAM_HDS_SUB_EQP_COM_GRN0 = "Use Grenades Slot (0)";
+MAM_HDS_SUB_EQP_COM_IDED = "Play Dead";
 MAM_HDS_SUB_EQP_COM_MEDI = "Use Medikit";
 MAM_HDS_SUB_EQP_COM_POTN = "Use Potion";
 MAM_HDS_SUB_EQP_COM_RMAR = "Strip Armor";
+MAM_HDS_SUB_EQP_COM_RNGF = "Range Finder";
 MAM_HDS_SUB_EQP_COM_STIM = "Use Stimpack";
+MAM_HDS_SUB_EQP_COM_UPST = "Use Pistol";
+MAM_HDS_SUB_EQP_COM_USMG = "Use SMG";
+MAM_HDS_SUB_EQP_COM_ZERK = "Use Berserk Pack";
 MAM_HDS_SUB_EQP_TITL = "HD: Equipment and Medical";
 
 
@@ -34,10 +41,13 @@ MAM_HDS_SUB_EQP_TITL = "HD: Equipment and Medical";
 MAM_HDS_SUB_EXP_CAT_DOOR = "Door Busters";
 MAM_HDS_SUB_EXP_CAT_IEDS = "IED Kits";
 MAM_HDS_SUB_EXP_COM_BOOM = "Detonate IEDs";
+MAM_HDS_SUB_EXP_COM_DBSQ = "Query Door Buster status";
 MAM_HDS_SUB_EXP_COM_IEDA = "Set IEDs Active";
 MAM_HDS_SUB_EXP_COM_IEDP = "Set IEDs Passive";
 MAM_HDS_SUB_EXP_COM_IEDQ = "Query IED status";
-MAM_HDS_SUB_EXP_COM_UIED = "Toss IED";
+MAM_HDS_SUB_EXP_COM_OPEN = "Detonate Door Busters";
+MAM_HDS_SUB_EXP_COM_UDBS = "Deploy Door Buster";
+MAM_HDS_SUB_EXP_COM_UIED = "Deploy IED";
 MAM_HDS_SUB_EXP_TITL = "HD: IEDs and Door Busters";
 
 

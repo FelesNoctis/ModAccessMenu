@@ -7,12 +7,12 @@ AddOptionMenu "MAM_Window"
 	SafeCommand "$MAM_HDS_SUB_WPA_COM_WUNL", mam_hd_unloadweapon, "$MAM_HDS_DSC_WUNL"
 	SafeCommand "$MAM_HDS_SUB_EQP_COM_RMAR", mam_hd_striparmor
 	StaticText " "
+	SubMenu "$MAM_HDS_SUB_EQMD", "MAM_HDST_SUB_EquipmentMedical"
 	SubMenu "$MAM_HDS_SUB_EXPL", "MAM_HDST_SUB_Explosives"
-	StaticText " "
 	SubMenu "$MAM_HDS_SUB_ROBT", "MAM_HDST_SUB_Robots"
-//	Command "$MAM_HDS_SUB_RBT_COM_DRP_SWAP", mam_hd_controlderpswap
-	StaticText " "
+	//	Command "$MAM_HDS_SUB_RBT_COM_DRP_SWAP", mam_hd_controlderpswap
 	SubMenu "$MAM_HDS_SUB_TEAM", "MAM_HDST_SUB_Team"
+	SubMenu "$MAM_HDS_SUB_WPAM", "MAM_HDST_SUB_WeaponAmmo"
 	StaticText " "
 }
 
@@ -38,9 +38,16 @@ OptionMenu "MAM_HDST_SUB_EquipmentMedical"
 	Title "$MAM_HDS_SUB_EQP_TITL"
 	StaticText "$MAM_HDS_SUB_EQP_CAT_EQUP"
 	SafeCommand "$MAM_HDS_SUB_EQP_COM_RMAR", mam_hd_striparmor
+	Command "$MAM_HDS_SUB_EQP_COM_RNGF", mam_hd_rangefinder
+	Command "$MAM_HDS_SUB_EQP_COM_UPST", mam_hd_usepistol
+	Command "$MAM_HDS_SUB_EQP_COM_USMG", mam_hd_usesmg
+	Command "$MAM_HDS_SUB_EQP_COM_GREN", mam_hd_usegrenades
+	Command "$MAM_HDS_SUB_EQP_COM_GRN0", mam_hd_usegrenadesslot
 	StaticText " "
 	StaticText "$MAM_HDS_SUB_EQP_CAT_MEDI"
+	Command "$MAM_HDS_SUB_EQP_COM_IDED", mam_hd_fallenandcantgetup
 	Command "$MAM_HDS_SUB_EQP_COM_BAND", mam_hd_usebandages
+	Command "$MAM_HDS_SUB_EQP_COM_ZERK", mam_hd_useberserk
 	Command "$MAM_HDS_SUB_EQP_COM_MEDI", mam_hd_usemedikit
 	Command "$MAM_HDS_SUB_EQP_COM_POTN", mam_hd_usepotion
 	Command "$MAM_HDS_SUB_EQP_COM_STIM", mam_hd_usestimpack
@@ -63,6 +70,9 @@ OptionMenu "MAM_HDST_SUB_Explosives"
 	SafeCommand "$MAM_HDS_SUB_EXP_COM_BOOM", mam_hd_detonateieds
 	StaticText " "
 	StaticText "$MAM_HDS_SUB_EXP_CAT_DOOR"
+	Command "$MAM_HDS_SUB_EXP_COM_DBSQ", mam_hd_doorbustersquery
+	Command "$MAM_HDS_SUB_EXP_COM_UDBS", mam_hd_deploydb
+	SafeCommand "$MAM_HDS_SUB_EXP_COM_OPEN", mam_hd_detonatedoorbusters
 }
 
 OptionMenu "MAM_HDST_SUB_Robots"

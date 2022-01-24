@@ -13,7 +13,6 @@ AddOptionMenu "MAM_Window"
 	//	Command "$MAM_HDS_SUB_RBT_COM_DRP_SWAP", mam_hd_controlderpswap
 	SubMenu "$MAM_HDS_SUB_TEAM", "MAM_HDST_SUB_Team"
 	SubMenu "$MAM_HDS_SUB_WPAM", "MAM_HDST_SUB_WeaponAmmo"
-	StaticText " "
 }
 
 AddOptionMenu "MAM_InstalledList"
